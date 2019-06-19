@@ -28,8 +28,9 @@ CREATE TABLE `controller` (
   `controller_user` varchar(15) NOT NULL,
   `controller_pass` varchar(32) NOT NULL,
   `controller_site` varchar(37) NOT NULL,
+  `controller_vendor_id` int(11) NOT NULL,
   PRIMARY KEY (`controller_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,7 +53,7 @@ CREATE TABLE `router` (
   `router_fff_contact` varchar(32) NOT NULL,
   `router_fff_hood` varchar(32) NOT NULL,
   PRIMARY KEY (`router_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,7 +67,7 @@ CREATE TABLE `vendors` (
   `vendor_id` int(11) NOT NULL AUTO_INCREMENT,
   `vendor_name` varchar(25) NOT NULL,
   PRIMARY KEY (`vendor_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
