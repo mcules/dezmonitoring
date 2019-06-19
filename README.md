@@ -1,8 +1,6 @@
 # dezmonitoring
 Monitoring für UNMS und UniFi Geräte von Ubiquity
 
-UniFi funktioniert schon soweit, UNMS muss ich noch ein wenig anpassen und stelle es dann auch online.
-
 Noch in Planung ist Support für Mikrotik.
 
 # Setup
