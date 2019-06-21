@@ -68,6 +68,12 @@ CREATE TABLE `vendors` (
   `vendor_name` varchar(25) NOT NULL,
   PRIMARY KEY (`vendor_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `vendors` (`vendor_id`, `vendor_name`) VALUES
+(1, 'unifi'),
+(2, 'unms'),
+(3, 'mikrotik');
+
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
